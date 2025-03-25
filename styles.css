@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+header{
+    background-color: beige;
+    width: 100%;
+    height: 200px;
+    border-radius: 100px 50px 100px 100px;
+    opacity: 100%;
+    box-shadow: 15px 15px 15px 15px gray;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+}
+
+.logo{
+    background-color: rgb(165, 158, 91);
+    width: 50px;
+    height: 50px;
+    
+}
+ 
+
+
+.textotitulo{
+color: gray;
+font-size: xx-large;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 5px;
+text-shadow: 2px 2px 2px black;
+
+}
+
+.button{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.ingreso{
+    color: gray;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding:10px;
+    text-decoration: none;
+}
+
+.ingreso:hover{
+    color: rgb(0, 0, 0);
+    background-color: gray;
+    font-size: 20px;
+    border: 1px solid gray;
+    padding:10px;
+}
+
+.prueba{
+    background-color: beige;
+    width: 100%;
+    height: 80px;
+    margin-top: 7px;
+}
+
+.prueba:hover{
+    background-color: rgb(54, 54, 54);
+    width: 100%;
+    height: 80px;
+    margin-top: 7px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 30px;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    background-color: gray;
+} 
+.principal{
+    background-color: beige;
+    width: 100%;
+    height: 600;
+
+}
+footer{
+background-color:beige;
+width: 100%;
+height: 50px;
+display: flex;
+justify-content: space-around;
+
+}
