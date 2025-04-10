@@ -1,36 +1,33 @@
 *{
     margin: 0;
     padding: 0%;
+    background-image: url("img/Copia\ de\ Copia\ de\ lunch\ Menu\ \(45\ x\ 32\ cm\)\ \(Presentación\)\ \(1\).png");
 }
 
 header{
-    background-color: beige;
     width: 100%;
-    height: 200px;
-    border-radius: 100px 50px 100px 100px;
+    height: 150px;
     opacity: 100%;
     box-shadow: 15px 15px 15px 15px gray;
     margin-top: 10px;
     display: flex;
     justify-content: space-evenly;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 
 .logo{
     background-color: rgb(165, 158, 91);
-    width: 50px;
-    height: 50px;
-    
+    width: 30px;
+    height: 30px;
 }
- 
-
 
 .textotitulo{
-color: gray;
+color: black;
 font-size: xx-large;
 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 letter-spacing: 5px;
-text-shadow: 2px 2px 2px black;
+text-shadow: 2px 2px 2px gray;
+margin-top: 40px;
 
 }
 
@@ -38,6 +35,7 @@ text-shadow: 2px 2px 2px black;
     background-color: transparent;
     width: 50px;
     height: 50px;
+    margin-top: 40px;
 }
 
 .ingreso{
@@ -57,17 +55,15 @@ text-shadow: 2px 2px 2px black;
 }
 
 .prueba{
-    background-color: beige;
     width: 100%;
     height: 80px;
-    margin-top: 7px;
+    
 }
 
 .prueba:hover{
     background-color: rgb(54, 54, 54);
     width: 100%;
     height: 80px;
-    margin-top: 7px;
 }
 
 nav{
@@ -93,7 +89,6 @@ nav a:hover{
     background-color: gray;
 } 
 .principal{
-    background-color: beige;
     width: 100%;
     height: 600;
 
