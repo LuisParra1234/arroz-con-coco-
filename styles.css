@@ -1,12 +1,12 @@
 *{
     margin: 0;
     padding: 0%;
-    background-image: url("img/Copia\ de\ Copia\ de\ lunch\ Menu\ \(45\ x\ 32\ cm\)\ \(Presentación\)\ \(1\).png");
+    background-color: rgb(255, 255, 255);
 }
 
 header{
     width: 100%;
-    height: 150px;
+    height: 100px;
     opacity: 100%;
     box-shadow: 15px 15px 15px 15px gray;
     margin-top: 10px;
@@ -15,19 +15,12 @@ header{
     padding-top: 20px;
 }
 
-.logo{
-    background-color: rgb(165, 158, 91);
-    width: 30px;
-    height: 30px;
-}
 
 .textotitulo{
-color: black;
-font-size: xx-large;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-letter-spacing: 5px;
-text-shadow: 2px 2px 2px gray;
-margin-top: 40px;
+color: rgb(0, 0, 0);
+font-family: Arial, Helvetica, sans-serif;
+font-size:xx-large;
+margin-top: 15px;
 
 }
 
@@ -35,7 +28,7 @@ margin-top: 40px;
     background-color: transparent;
     width: 50px;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .ingreso{
@@ -61,7 +54,7 @@ margin-top: 40px;
 }
 
 .prueba:hover{
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(80, 80, 80);
     width: 100%;
     height: 80px;
 }
@@ -80,6 +73,7 @@ nav a{
     text-decoration: none;
     color: gray;
     font-size: 30px;
+    
 }
 
 nav a:hover{
