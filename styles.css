@@ -6,33 +6,30 @@
 
 header{
     width: 100%;
-    height: 100px;
+    height: 70px;
     opacity: 100%;
-    box-shadow: 15px 15px 15px 15px gray;
-    margin-top: 10px;
+    box-shadow: 5px 5px 5px 5px #852c06;
     display: flex;
-    justify-content: space-evenly;
+    justify-content:space-around;
     padding-top: 20px;
 }
 
 
 .textotitulo{
-color: rgb(0, 0, 0);
+color: #852c06;
 font-family: Arial, Helvetica, sans-serif;
 font-size:xx-large;
-margin-top: 15px;
+margin-top: 5px;
 
 }
 
 .button{
     background-color: transparent;
-    width: 50px;
-    height: 50px;
     margin-top: 10px;
 }
 
 .ingreso{
-    color: gray;
+    color: black;
     font-size: 20px;
     border: 1px solid gray;
     padding:10px;
@@ -40,7 +37,6 @@ margin-top: 15px;
 }
 
 .ingreso:hover{
-    color: rgb(0, 0, 0);
     background-color: gray;
     font-size: 20px;
     border: 1px solid gray;
@@ -49,20 +45,30 @@ margin-top: 15px;
 
 .prueba{
     width: 100%;
-    height: 80px;
-    
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .prueba:hover{
-    background-color: rgb(80, 80, 80);
     width: 100%;
-    height: 80px;
+    height: 40px;
+
+}
+
+.secciones{
+margin-right: 35px;
+font-size: 20px;
 }
 
 nav{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+hr{
+    height: 2px;
+    background-color: #852c06;
 }
 
 nav li{
@@ -71,27 +77,25 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: gray;
+    color: #852c06;
     font-size: 30px;
-    
 }
 
 nav a:hover{
     text-decoration: none;
     color: black;
-    font-size: 30px;
-    background-color: gray;
+    font-size: 20px;
 } 
 .principal{
     width: 100%;
     height: 600;
-
+    background-color: #852c06;
 }
+
 footer{
 background-color:beige;
 width: 100%;
 height: 50px;
 display: flex;
 justify-content: space-around;
-
 }
